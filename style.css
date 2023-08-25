@@ -1,0 +1,22 @@
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+main {
+    border: solid blue 2px;
+}
