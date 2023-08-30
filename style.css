@@ -4,19 +4,21 @@ body, html{
     padding: 0px;
 }
 
-
 .cabecalho {
-    background-color: black;
-    color: white;
+    background-color: rgb(71, 71, 71);
     padding: 20px;
 }
 
-header > nav > a {
-    color: white;
-    text-decoration: none;
-    
+main {
+    padding: 20px 20px 20px 30px;
 }
 
-main {
-    border: solid blue 2px;
+.cabecalho_menu > a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.cabecalho_menu > a:hover {
+    color: gray;
 }
