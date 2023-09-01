@@ -12,6 +12,15 @@ body, html{
 main {
     padding: 20px 20px 20px 30px;
 }
+/* TIPOGRAFIA*/
+
+.artigo_texto > p {
+    max-width: 50ch;
+    line-height: 20px;
+}
+
+/* COMPONENTES
+*/
 
 .cabecalho_menu > a {
     color: white;
@@ -21,4 +30,19 @@ main {
 
 .cabecalho_menu > a:hover {
     color: gray;
+}
+
+.artigo_botao {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(71, 71, 71);
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.artigo_botao:hover {
+    background-color: rgb(155, 155, 155);
+    color: black;
+    border: solid 1px black;
+    box-shadow: -3px 11px 12px -3px rgba(0, 0, 0, 0.75);
 }
