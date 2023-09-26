@@ -30,6 +30,7 @@ main {
 
 .cabecalho_menu > a:hover {
     color: gray;
+    background-color: brown;
 }
 
 .artigo_botao {
