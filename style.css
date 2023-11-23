@@ -29,7 +29,7 @@ main {
 }
 
 .cabecalho_menu > a:hover {
-    color: gray;
+    color: rgb(140, 136, 136);
     background-color: brown;
 }
 
